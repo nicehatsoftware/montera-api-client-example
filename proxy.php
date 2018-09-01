@@ -29,7 +29,7 @@ Author: https://www.nicehatsoftware.com
 */
 	
    //----------CONFIG-----------//
-    $api_schedule_url = 'https://api.kepi.io/montera/api/v1/schedule';
+    $api_schedule_url = '';
     $api_key = '';
     $tenant_id = '';
    //---------------------------//
