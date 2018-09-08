@@ -51,9 +51,17 @@ Author: https://www.nicehatsoftware.com
    $json = json_decode($response);
 
    if ($json->status != 200) {
-        echo 'error';
+        $error = array(
+            'message' => 'Error: API request failed.'
+        );
+
+        echo json_encode($error);
+
+        exit;
    }
 
    echo json_encode($json);
+
+   exit;
 
 ?>
